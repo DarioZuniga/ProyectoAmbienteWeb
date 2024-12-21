@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.encabezado {
+    background-color: #2c5530;
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selector_idioma {
+    background: white;
+    padding: 8px;
+    border-radius: 4px;
+    color: #2c5530;
+}
+
+.navegacion {
+    background-color: #4a8751;
+    padding: 1rem;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.navegacion a:hover {
+    background-color: #2c5530;
+}
+
+.contenido_principal {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.cuadricula_productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.tarjeta_producto {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.tarjeta_producto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.info_producto {
+    margin-top: 1rem;
+}
+
+.precio {
+    color: #2c5530;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+
+.contenedor_formulario {
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.grupo_formulario {
+    margin-bottom: 1rem;
+}
+
+.grupo_formulario label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.grupo_formulario input,
+.grupo_formulario select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.boton {
+    background-color: #2c5530;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #4a8751;
+}
+
+/* Estilos de Tabla */
+.contenedor_tabla {
+    overflow-x: auto;
+
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.tabla th{
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Estilos de Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contenedor_footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_seccion {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer_seccion h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #f4f4f4;
+}
+
+.footer_seccion p,
+.footer_seccion ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.footer_seccion ul {
+    list-style: none;
+}
+
+.footer_seccion ul li {
+    margin: 5px 0;
+}
+
+.footer_seccion ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer_seccion ul li a:hover {
+    color: #79e08a;
+}
+
+.footer_derechos {
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer_derechos p {
+    margin: 0;
+}
+
+
+.tabla td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tabla th {
+    background-color: #4a8751;
+    color: white;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.tabla {
+    ul {
+        display: flex;
+        li {
+            list-style: none;
+            margin: 0 2px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}

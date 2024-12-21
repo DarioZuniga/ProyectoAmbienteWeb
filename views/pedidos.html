@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valle del Arenal - Sistema de Gestión</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>Valle del Arenal</h1>
+    </header>
+
+    <nav class="navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="pedidos.html">Pedidos</a>
+        <a href="#facturas">Facturas</a>
+        <a href="usuarios.html">Usuarios</a>
+    </nav>
+
+    <main class="contenido_principal">
+        <section id="pedidos">
+            <h2>Pedidos Semanales</h2>
+            <div class="contenedor_tabla">
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>ID Pedido</th>
+                            <th>Cliente</th>
+                            <th>Fecha</th>
+                            <th>Estado</th>
+                            <th>Total</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>Cliente Ejemplo</td>
+                            <td>2024-11-12</td>
+                            <td>Pendiente</td>
+                            <td>$500.00</td>
+                            <td>
+                                <button class="boton">Ver</button>
+                                <button class="boton">Editar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

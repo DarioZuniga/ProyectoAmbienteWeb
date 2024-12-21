@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción breve de la página">
+    <meta name="keywords" content="HTML, CSS, JavaScript, web, plantilla">
+    <meta name="author" content="Tu Nombre">
+    <title>Título de la Página</title>
+    <!-- Enlace a CSS -->
+    <link rel="stylesheet" href="asset/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="asset/favicon.ico" type="image/x-icon">
+    <!-- Scripts externos -->
+    <script src="asset/script.js" defer></script>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Título de la Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="#pedidos">Pedidos</a>
+            <a href="#facturas">Facturas</a>
+            <a href="#usuarios">Usuarios</a>
+        </nav>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a nuestra página. Aquí encontrarás información relevante sobre nosotros.</p>
+        </section>
+        
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos un equipo comprometido en ofrecer las mejores soluciones para ti.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Servicio 1</li>
+                <li>Servicio 2</li>
+                <li>Servicio 3</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
